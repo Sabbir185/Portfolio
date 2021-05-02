@@ -1,0 +1,18 @@
+.main-header{
+    background-color: #0A192F;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+.main-title{
+    color: #CCD6F6;
+    font-size: 50px;
+    font-weight: 700;
+}
+.main-skill{
+    color: #d65336;
+    font-weight: 700;
+}
+.main-description{
+    color: #9fa6b9;
+    font-weight: 500;
+}

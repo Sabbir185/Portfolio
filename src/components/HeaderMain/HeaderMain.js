@@ -1,0 +1,23 @@
+import React from 'react';
+import { Button } from 'react-bootstrap';
+import './HeaderMain.css'
+
+const HeaderMain = () => {
+    return (
+        <section className='main-header'>
+            <div className="row">
+                <div className="col"></div>
+                <div className="col-8 col-lg-6 col-xlg-6">
+                    <h4 className="text-success">Hi , my name is</h4>
+                    <h1 className="main-title">SABBIR AHMMED</h1>
+                    <h3 className="main-skill mt-3">MERN Stack Developer</h3>
+                    <p className="main-description mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, quas.</p>
+                    <Button className="mt-3" variant="outline-success">GET IN TOUCH</Button>
+                </div>
+                <div className="col"></div>
+            </div>
+        </section>
+    );
+};
+
+export default HeaderMain;
