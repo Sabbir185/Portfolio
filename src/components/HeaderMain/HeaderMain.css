@@ -7,6 +7,7 @@
     color: #CCD6F6;
     font-size: 50px;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 .main-skill{
     color: #d65336;
@@ -15,5 +16,9 @@
 }
 .main-description{
     color: #9fa6b9;
+    font-weight: 500;
+}
+.main-hello{
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
 }

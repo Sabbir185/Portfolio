@@ -14,3 +14,7 @@
     padding-left: 5%;
     padding-right: 5%;
 }
+.img-size{
+    width: 70px;
+    border-radius: 40%;
+}

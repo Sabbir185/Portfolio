@@ -2,11 +2,12 @@ import React from 'react';
 import { Button, Nav, Navbar} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './HeaderNav.css'
+import logo from '../../images/logo.png'
 
 const HeaderNav = () => {
     return (
         <Navbar style={{backgroundColor:'#0A192F', paddingTop:'20px'}} expand="lg" className="nav-padding">
-            <Navbar.Brand href="#home" style={{color:'#4DC5AF', fontWeight:'600'}}>SABBIR AHMMED</Navbar.Brand>
+            <Navbar.Brand href="#home" style={{color:'#4DC5AF', fontWeight:'600'}}> <img src={logo} alt="" className="img-fluid img-size"/> SABBIR AHMMED</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" className='custom-toggler'/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
