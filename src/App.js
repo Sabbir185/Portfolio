@@ -1,14 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        Coming Soon !
-      </header>
-    </div>
+    <Router>
+      <Switch>
+
+        <Route exact path='/'>
+          <Home></Home>
+        </Route>
+
+      </Switch>
+    </Router>
   );
 }
 

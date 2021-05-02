@@ -1,0 +1,8 @@
+.navColor{
+    color: #b8b9bb;
+    font-weight: 600;
+}
+.navColor:hover{
+    text-decoration: none;
+    color: cyan;
+}
