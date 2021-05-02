@@ -5,7 +5,7 @@ import './HeaderNav.css'
 
 const HeaderNav = () => {
     return (
-        <Navbar style={{backgroundColor:'#0A192F', paddingTop:'20px'}} expand="lg" className="nav-padding" sticky="top">
+        <Navbar style={{backgroundColor:'#0A192F', paddingTop:'20px'}} expand="lg" className="nav-padding">
             <Navbar.Brand href="#home" style={{color:'#4DC5AF', fontWeight:'600'}}>SABBIR AHMMED</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" className='custom-toggler'/>
             <Navbar.Collapse id="basic-navbar-nav">
