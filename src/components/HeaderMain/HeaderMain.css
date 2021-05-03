@@ -22,10 +22,19 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
 }
+.social-icon{
+    height: 30px;
+    opacity: .7;
+}
+
+.social-icon:hover{
+    opacity: 1;
+}
+
 
 @media only screen and (max-width: 768px) {
     .main-header{
-        padding-top: 20%;
-        padding-bottom: 30%;
+        padding-top: 15%;
+        padding-bottom: 35%;
     }
   }
