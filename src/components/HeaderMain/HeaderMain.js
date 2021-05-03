@@ -10,7 +10,7 @@ const HeaderMain = () => {
             <div className="row">
                 <div className="col"></div>
                 <div className="col-8 col-lg-6 col-xlg-6">
-                    <h4 className="text-success main-hello">Hi , my name is</h4>
+                    <h4 className="text-success main-hello">Hi, my name is</h4>
                     <h1 className="main-title">SABBIR AHMMED</h1>
                     <div className="main-skill mt-3">
                         <Typewriter
