@@ -1,0 +1,31 @@
+.projects-bg{
+    background-color: #0A192F;
+}
+.projects-title{
+    color: #CCD6F6;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+.projects-title p{
+    border-bottom: 5px double #4DC5AF;
+    padding-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.img-style img{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(216, 214, 214, 0.2), 0 6px 20px 0 rgba(196, 194, 194, 0.19);
+    display: block;
+    margin: auto;
+}
+.img-style{
+    border-right: 1px dotted #d65336;
+}
+.list-style li{
+    list-style: none;
+}
+.project-two{
+    border-right: 1px dotted #d65336;;
+}

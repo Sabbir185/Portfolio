@@ -38,3 +38,10 @@
         padding-bottom: 35%;
     }
   }
+@media only screen and (max-width: 480px) {
+    .main-skill{
+        color: #d65336;
+        font-weight: 700;
+        font-size: 20px;
+    }
+  }
