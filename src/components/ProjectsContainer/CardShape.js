@@ -3,6 +3,7 @@ import sundarban from '../../images/projects/3.png';
 import slider from '../../images/projects/9.png';
 import food from '../../images/projects/8.png';
 import './style.css';
+import ViewMore from './ViewMore';
 
 const CardShape = () => {
     return (

@@ -4,6 +4,7 @@ import './Projects.css';
 import RepairGuruji from '../ProjectsContainer/RepairGuruji';
 import Eplanet from '../ProjectsContainer/Eplanet';
 import CardShape from '../ProjectsContainer/CardShape';
+import ViewMore from '../ProjectsContainer/ViewMore';
 
 
 const Projects = () => {
@@ -23,6 +24,10 @@ const Projects = () => {
 
                 <article className="container-fluid px-5 pt-5">
                     <CardShape/>
+                </article>
+
+                <article className="pb-5">
+                    <ViewMore/>
                 </article>
 
             </main>
