@@ -14,18 +14,3 @@
     margin-left: 30%;
     margin-right: 30%;
 }
-.img-style img{
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(216, 214, 214, 0.2), 0 6px 20px 0 rgba(196, 194, 194, 0.19);
-    display: block;
-    margin: auto;
-}
-.img-style{
-    border-right: 1px dotted #d65336;
-}
-.list-style li{
-    list-style: none;
-}
-.project-two{
-    border-right: 1px dotted #d65336;;
-}
