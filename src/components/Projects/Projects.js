@@ -21,7 +21,7 @@ const Projects = () => {
                     <Eplanet/>
                 </article>
 
-                <article className="container-fluid pt-5">
+                <article className="container-fluid px-5 pt-5">
                     <CardShape/>
                 </article>
 

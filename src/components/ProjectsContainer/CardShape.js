@@ -11,30 +11,36 @@ const CardShape = () => {
                 <div className="m-2 card-image">
                     <img src={sundarban} className="card-img-top img-fluid" alt="..." />
                 </div>
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                <div className="card-body card-description">
+                    <h5 className="card-title">Sundarban Express</h5>
+                    <p className="card-text text-justify"> 
+                        Sundarban express provides 4 types of transport services. At this time Bike, Bus, Car & also Train transports are available.
+                    </p>
+                    <button className="btn btn-success px-4 d-block ml-auto"> view </button>
                 </div>
             </div>
             <div className="card card-container">
                 <div className="m-2 card-image">
                     <img src={slider} className="card-img-top img-fluid" alt="..." />
                 </div>
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                <div className="card-body card-description">
+                    <h5 className="card-title">Image Slider</h5>
+                    <p className="card-text text-justify">
+                        In image slider, you can search any types of images. Select multiple images and now set slider duration(ex. 1000 ms). Click create slider.
+                    </p>
+                    <button className="btn btn-success px-4 d-block ml-auto"> view </button>
                 </div>
             </div>
             <div className="card card-container">
                 <div className="m-2 card-image">
                     <img src={food} className="card-img-top img-fluid" alt="..." />
                 </div>
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                <div className="card-body card-description">
+                    <h5 className="card-title">Cooking Master</h5>
+                    <p className="card-text text-justify">
+                        Cooking master your restaurant ! feel free to search your favorite food item. See details. You may search by a character. 
+                    </p>
+                    <button className="btn btn-success px-4 d-block ml-auto"> view </button>
                 </div>
             </div>
         </div>
