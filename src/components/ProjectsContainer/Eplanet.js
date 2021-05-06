@@ -47,7 +47,7 @@ const Eplanet = () => {
                 <div className="col-xs-12 col-sm-5 col-md-5 col-lg-5 col-xlg-5 img-style d-flex align-items-center justify-content-center">
                     <div>
                         <img src={eplanet} alt="" className="img-fluid" />
-                        <a href={`https://${'e-planetshop.web.app/'}`} target='_blank' className="text-decoration-none"> <button className="btn btn-outline-success mt-3 mx-auto d-block">view project</button> </a>
+                        <a href={`https://${'e-planetshop.web.app/'}`} target='_blank' rel="noreferrer" className="text-decoration-none"> <button className="btn btn-outline-success mt-3 mx-auto d-block">view project</button> </a>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ const Eplanet = () => {
                 <div className="col-xs-12 col-sm-5 col-md-5 col-lg-5 col-xlg-5 img-style d-flex align-items-center justify-content-center">
                     <div>
                         <img src={eplanet} alt="" className="img-fluid" />
-                        <a href={`https://${'e-planetshop.web.app/'}`} target='_blank' className="text-decoration-none"> <button className="btn btn-outline-success mt-3 mx-auto d-block">view project</button> </a>
+                        <a href={`https://${'e-planetshop.web.app/'}`} target='_blank' rel="noreferrer" className="text-decoration-none"> <button className="btn btn-outline-success mt-3 mx-auto d-block">view project</button> </a>
                     </div>
                 </div>
                 <div className="col details d-flex align-items-center" style={{ color: "#CCD6F6" }}>

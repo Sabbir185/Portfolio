@@ -30,7 +30,7 @@ const ViewMore = () => {
                                 <p className="card-text text-justify">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, alias fugiat optio ratione aut natus.
                                 </p>
-                                <a href={`https://${'sabbir185-alpha-teams.netlify.app/'}`} target='_blank' className="text-decoration-none"> <button className="btn btn-success mt-3 ml-auto d-block">view project</button> </a>
+                                <a href={`https://${'sabbir185-alpha-teams.netlify.app/'}`} target='_blank' rel="noreferrer" className="text-decoration-none"> <button className="btn btn-success mt-3 ml-auto d-block">view project</button> </a>
                             </div>
                         </div>
                         <div className="card card-container">
@@ -42,7 +42,7 @@ const ViewMore = () => {
                                 <p className="card-text text-justify">
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi in similique excepturi quas velit eum!
                                 </p>
-                                <a href={`https://${'sabbir185.github.io/JavaScript/API-basic-concept/hard-rock-music/index.html'}`} target='_blank' className="text-decoration-none"> <button className="btn btn-success mt-3 ml-auto d-block">view project</button> </a>
+                                <a href={`https://${'sabbir185.github.io/JavaScript/API-basic-concept/hard-rock-music/index.html'}`} target='_blank' rel="noreferrer" className="text-decoration-none"> <button className="btn btn-success mt-3 ml-auto d-block">view project</button> </a>
                             </div>
                         </div>
                         <div className="card card-container">
@@ -54,7 +54,7 @@ const ViewMore = () => {
                                 <p className="card-text text-justify">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque optio reiciendis eligendi labore delectus.
                                 </p>
-                                <a href={`https://${'sabbir185.github.io/penguin-fashion/index.html'}`} target='_blank' className="text-decoration-none"> <button className="btn btn-success mt-3 ml-auto d-block">view project</button> </a>
+                                <a href={`https://${'sabbir185.github.io/penguin-fashion/index.html'}`} target='_blank' rel="noreferrer" className="text-decoration-none"> <button className="btn btn-success mt-3 ml-auto d-block">view project</button> </a>
                             </div>
                         </div>
                     </div>
