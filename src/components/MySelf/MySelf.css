@@ -1,0 +1,20 @@
+.myself-container{
+    background-color: #0A192F;
+    padding-bottom: 8%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.my-self{
+    font-size: 32px;
+    color: #CCD6F6;
+    font-weight: 700;
+    border-bottom: 3px dotted #4DC5AF;
+    padding-bottom: 10px;
+}
+.myself-img{
+    width: 300px;
+    box-shadow: 2px 2px 10px tomato;
+}
+.myself-text{
+    color: #9fa6b9;
+}

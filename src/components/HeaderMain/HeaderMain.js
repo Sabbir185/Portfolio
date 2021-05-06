@@ -40,7 +40,7 @@ const HeaderMain = () => {
                     </div>
                     {/* <h3 className="main-skill mt-3">MERN Stack Developer</h3> */}
                     <p className="main-description mt-3">the passion for coding, commitment to the deadline, life for humanity <span style={{color:'red',fontSize:'20px'}}> &#9829;</span></p>
-                    <Button className="mt-3" variant="outline-success">GET IN TOUCH</Button>
+                    <Button className="mt-3" variant="outline-success">Download Resume</Button>
                 </div>
                 <div className="col"></div>
             </div>
