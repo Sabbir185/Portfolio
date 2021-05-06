@@ -5,12 +5,15 @@ import './style.css'
 const RepairGuruji = () => {
 
     return (
-        <div className="row">
-            <div className="col-5 img-style d-flex align-items-center">
-                <img src={repair} alt="" className="img-fluid w-75" />
+        <div className="row repair-res">
+            <div className="col-xs-12 col-sm-5 col-md-5 col-lg-5 col-xlg-5 img-style d-flex align-items-center justify-content-center">
+                <div>
+                    <img src={repair} alt="" className="img-fluid" />
+                    <a href={`https://${'repair-guruji.web.app'}`} target='_blank' className="text-decoration-none"> <button className="btn btn-outline-success mt-3 mx-auto d-block">view project</button> </a>
+                </div>
             </div>
-            <div className="col d-flex align-items-center" style={{ color: "#CCD6F6" }}>
-                <div className="pl-5">
+            <div className="col details d-flex align-items-center" style={{ color: "#CCD6F6" }}>
+                <div className="">
                     <h4>Repair Guruji</h4>
                     <p>Repair guruji is a repair service provider. User and Admin have dynamic interfaces.</p>
                     <ul>
@@ -39,6 +42,12 @@ const RepairGuruji = () => {
                         <span>ExpressJs, </span>
                         <span>MongoDB, </span>
                         <span>Firebase-auth</span>
+                    </div>
+                    <div className='mt-2'>
+                        <h6>Deploy Server</h6>
+                        <span>Firebase, </span>
+                        <span>Heroku, </span>
+                        <span>github, </span>
                     </div>
                 </div>
             </div>

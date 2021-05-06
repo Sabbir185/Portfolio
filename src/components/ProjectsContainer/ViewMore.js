@@ -7,7 +7,7 @@ import b from '../../images/projects/b.png';
 
 const ViewMore = () => {
     const [open, setOpen] = useState(false);
-
+ 
     return (
         <div>
             <Button
@@ -20,7 +20,7 @@ const ViewMore = () => {
             </Button>
             <Fade in={open}>
                 <div id="view-more" className="pt-2">
-                    <div className="card-deck mt-5 mb-5 pb-3">
+                    <div className="card-deck mt-5 mb-5 pb-3 responsive">
                         <div className="card card-container">
                             <div className="m-2 card-image">
                                 <img src={a} className="card-img-top img-fluid" alt="..." />
@@ -30,7 +30,7 @@ const ViewMore = () => {
                                 <p className="card-text text-justify">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, alias fugiat optio ratione aut natus.
                                 </p>
-                                <button className="btn btn-success px-4 d-block ml-auto"> view </button>
+                                <a href={`https://${'sabbir185-alpha-teams.netlify.app/'}`} target='_blank' className="text-decoration-none"> <button className="btn btn-success mt-3 ml-auto d-block">view project</button> </a>
                             </div>
                         </div>
                         <div className="card card-container">
@@ -42,7 +42,7 @@ const ViewMore = () => {
                                 <p className="card-text text-justify">
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi in similique excepturi quas velit eum!
                                 </p>
-                                <button className="btn btn-success px-4 d-block ml-auto"> view </button>
+                                <a href={`https://${'sabbir185.github.io/JavaScript/API-basic-concept/hard-rock-music/index.html'}`} target='_blank' className="text-decoration-none"> <button className="btn btn-success mt-3 ml-auto d-block">view project</button> </a>
                             </div>
                         </div>
                         <div className="card card-container">
@@ -54,7 +54,7 @@ const ViewMore = () => {
                                 <p className="card-text text-justify">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque optio reiciendis eligendi labore delectus.
                                 </p>
-                                <button className="btn btn-success px-4 d-block ml-auto"> view </button>
+                                <a href={`https://${'sabbir185.github.io/penguin-fashion/index.html'}`} target='_blank' className="text-decoration-none"> <button className="btn btn-success mt-3 ml-auto d-block">view project</button> </a>
                             </div>
                         </div>
                     </div>
