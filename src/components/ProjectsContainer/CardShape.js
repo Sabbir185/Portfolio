@@ -3,11 +3,11 @@ import sundarban from '../../images/projects/3.png';
 import slider from '../../images/projects/9.png';
 import food from '../../images/projects/8.png';
 import './style.css';
-import ViewMore from './ViewMore';
 
 const CardShape = () => {
+    
     return (
-        <div className="card-deck mt-5 mb-5 pt-5 pb-5">
+        <div className="card-deck mt-5 mb-5 pt-5 pb-3">
             <div className="card card-container">
                 <div className="m-2 card-image">
                     <img src={sundarban} className="card-img-top img-fluid" alt="..." />

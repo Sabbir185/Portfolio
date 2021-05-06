@@ -26,7 +26,7 @@ const Projects = () => {
                     <CardShape/>
                 </article>
 
-                <article className="pb-5">
+                <article className="container-fluid px-5 pb-5">
                     <ViewMore/>
                 </article>
 
