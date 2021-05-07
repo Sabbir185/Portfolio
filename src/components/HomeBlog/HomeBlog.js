@@ -13,7 +13,7 @@ const HomeBlog = () => {
 
     return (
         <section className="homeBlog-container">
-            <span className="homeBlog-title">Latest Projects</span>
+            <span className="homeBlog-title">Blogs</span>
 
             <div className="blogStyle text-dark container mt-5 pt-5">
                 {

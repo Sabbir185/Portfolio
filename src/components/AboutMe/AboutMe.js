@@ -1,11 +1,14 @@
 import React from 'react';
 import HeaderNav from '../HeaderNav/HeaderNav';
+import MySelf from '../MySelf/MySelf';
 
 const AboutMe = () => {
     return (
-        <div>
+        <div style={{backgroundColor:'#0A192F'}}>
             <HeaderNav/>
-            <h1>About Me coming soon</h1>
+            <div className="pt-5">
+                <MySelf/>
+            </div>
         </div>
     );
 };

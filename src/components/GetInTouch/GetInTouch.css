@@ -1,0 +1,25 @@
+.GetInTouch-title{
+    font-size: 32px;
+    color: #CCD6F6;
+    font-weight: 700;
+    border-bottom: 3px dotted #4DC5AF;
+    padding-bottom: 10px;
+    margin-left: 12%;
+}
+
+.GetInTouch-container{
+    background-color: #0A192F;
+    padding-top: 5%;
+}
+.getInTouch-hi{
+    padding-top: 8%;
+}
+.touch-color{
+    color: #9fa6b9;
+}
+.touch-form{
+    border: 1px solid #636262;
+    background-color: #0e2547;
+    padding: 10px;
+    border-radius: 6px;
+}

@@ -1,12 +1,13 @@
 import React from 'react';
 import HeaderNav from '../HeaderNav/HeaderNav';
+import HomeBlog from '../HomeBlog/HomeBlog';
 
 
 const Blogs = () => {
     return (
         <div>
             <HeaderNav></HeaderNav>
-            <h1>Blogs coming soon</h1>
+            <HomeBlog/>
         </div>
     );
 };
