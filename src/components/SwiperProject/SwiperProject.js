@@ -26,7 +26,7 @@ SwiperCore.use([EffectCoverflow,Pagination]);
 
 const SwiperProject = () => {
     return (
-        <section className="pb-5 mt-5">
+        <section className="pb-5 swiper-main">
             <span className="swiper-title">Latest Projects</span>
             <Swiper effect={'coverflow'} grabCursor={true} centeredSlides={true} slidesPerView={'auto'} coverflowEffect={{
                 "rotate": 50,
