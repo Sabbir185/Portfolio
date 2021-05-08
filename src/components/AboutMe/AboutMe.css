@@ -1,0 +1,45 @@
+.aboutMe-img img{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    box-shadow: 3px 4px rgb(6, 206, 96);
+}
+.aboutMe-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMe-textColor{
+    color: #9fa6b9;
+}
+.aboutMe-headerColor{
+    color: #CCD6F6;
+}
+.aboutMe-mainTitle{
+    color: #CCD6F6;
+    border-bottom: 1px double #4DC5AF;
+    padding-bottom: 3px;
+}
+
+.skill-info > span{
+    color: #9fa6b9;
+    font-family: 'Itim', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+.aboutMe-textColor article, .aboutMe-headerColor{
+    font-family: 'Itim', cursive;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .aboutInfo-container{
+        text-align: center;
+    }
+    .aboutInfo-container article{
+        margin: auto;
+        padding-bottom: 10%;
+    }
+
+}
