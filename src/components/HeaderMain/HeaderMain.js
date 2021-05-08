@@ -7,6 +7,7 @@ import github from '../../images/github.png';
 import behance from '../../images/behance.png';
 import facebook from '../../images/facebook.png';
 import twitter from '../../images/twitter.png';
+import { motion } from "framer-motion"
 
 
 const HeaderMain = () => {
@@ -15,15 +16,15 @@ const HeaderMain = () => {
             <div className="row">
                 <div className="col d-flex align-items-center justify-content-center">
                     <article>
-                        <a href={`https://${'www.linkedin.com/in/sabbir185/'}`} target='_blank'><img src={linkedin} alt="" className="img-fluid social-icon d-block mb-3"/></a>
+                        <a href={`https://${'www.linkedin.com/in/sabbir185/'}`} target='_blank' rel="noreferrer"><img src={linkedin} alt="" className="img-fluid social-icon d-block mb-3"/></a>
 
-                        <a href={`https://${'github.com/Sabbir185'}`} target='_blank'><img src={github} alt="" className="img-fluid social-icon d-block mb-3"/></a>
+                        <a href={`https://${'github.com/Sabbir185'}`} target='_blank' rel="noreferrer"><img src={github} alt="" className="img-fluid social-icon d-block mb-3"/></a>
 
-                        <a href={`https://${'www.behance.net/sabbir185'}`} target='_blank'><img src={behance} alt="" className="img-fluid social-icon d-block mb-3"/></a>
+                        <a href={`https://${'www.behance.net/sabbir185'}`} target='_blank' rel="noreferrer"><img src={behance} alt="" className="img-fluid social-icon d-block mb-3"/></a>
 
-                        <a href={`https://${'www.facebook.com/sabbir185/'}`} target='_blank'><img src={facebook} alt="" className="img-fluid social-icon d-block mb-3"/></a>
+                        <a href={`https://${'www.facebook.com/sabbir185/'}`} target='_blank' rel="noreferrer"><img src={facebook} alt="" className="img-fluid social-icon d-block mb-3"/></a>
                         
-                        <a href={`https://${'twitter.com/sabbir185'}`} target='_blank'><img src={twitter} alt="" className="img-fluid social-icon d-block"/></a>
+                        <a href={`https://${'twitter.com/sabbir185'}`} target='_blank' rel="noreferrer"><img src={twitter} alt="" className="img-fluid social-icon d-block"/></a>
                     </article>
                 </div>
                 <div className="col-8 col-lg-6 col-xlg-6">
@@ -40,7 +41,13 @@ const HeaderMain = () => {
                     </div>
                     {/* <h3 className="main-skill mt-3">MERN Stack Developer</h3> */}
                     <p className="main-description mt-3">the passion for coding, commitment to the deadline, life for humanity <span style={{color:'red',fontSize:'20px'}}> &#9829;</span></p>
-                    <Button className="mt-3" variant="outline-success">Download Resume</Button>
+                    <motion.div
+                        initial={{x:'-100vw'}}
+                        animate={{x: 0}}
+                        transition={{ duration: .5}}
+                    >
+                        <Button className="mt-3" variant="outline-success">Download Resume</Button>
+                    </motion.div>
                 </div>
                 <div className="col"></div>
             </div>

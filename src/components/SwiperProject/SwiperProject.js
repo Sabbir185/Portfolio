@@ -14,13 +14,14 @@ import sundarban from '../../images/projects/3.png';
 import imgSlider from '../../images/projects/9.png';
 import alpha from '../../images/projects/4.png';
 
+
 // import Swiper core and required modules
 import SwiperCore, {
-  EffectCoverflow,Pagination
+    EffectCoverflow, Pagination
 } from 'swiper/core';
 
 // install Swiper modules
-SwiperCore.use([EffectCoverflow,Pagination]);
+SwiperCore.use([EffectCoverflow, Pagination]);
 
 
 
@@ -40,19 +41,19 @@ const SwiperProject = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <a href={`https://${'e-planetshop.web.app/'}`} target='_blank' rel="noreferrer" className="text-decoration-none"><img src={eplanet} alt=""/></a>
+                    <a href={`https://${'e-planetshop.web.app/'}`} target='_blank' rel="noreferrer" className="text-decoration-none"><img src={eplanet} alt="" /></a>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <a href={`https://${'sundarban-express.web.app/'}`} target='_blank' rel="noreferrer" className="text-decoration-none"><img src={sundarban} alt=""/></a>
+                    <a href={`https://${'sundarban-express.web.app/'}`} target='_blank' rel="noreferrer" className="text-decoration-none"><img src={sundarban} alt="" /></a>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <a href={`https://${'sabbir185-alpha-teams.netlify.app/'}`} target='_blank' rel="noreferrer" className="text-decoration-none"><img src={alpha} alt=""/></a>
+                    <a href={`https://${'sabbir185-alpha-teams.netlify.app/'}`} target='_blank' rel="noreferrer" className="text-decoration-none"><img src={alpha} alt="" /></a>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <a href={`https://${'sabbir185.github.io/JavaScript/API-basic-concept/fancy-slider-bug-fixing/index.html'}`} target='_blank' rel="noreferrer" className="text-decoration-none"><img src={imgSlider} alt=""/></a>
+                    <a href={`https://${'sabbir185.github.io/JavaScript/API-basic-concept/fancy-slider-bug-fixing/index.html'}`} target='_blank' rel="noreferrer" className="text-decoration-none"><img src={imgSlider} alt="" /></a>
                 </SwiperSlide>
 
             </Swiper>

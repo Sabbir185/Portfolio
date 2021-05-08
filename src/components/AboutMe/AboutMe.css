@@ -13,10 +13,10 @@
     color: #9fa6b9;
 }
 .aboutMe-headerColor{
-    color: #CCD6F6;
+    color: #b1bfeb;
 }
 .aboutMe-mainTitle{
-    color: #CCD6F6;
+    color: #b1bfeb;
     border-bottom: 1px double #4DC5AF;
     padding-bottom: 3px;
 }
@@ -24,6 +24,12 @@
 .skill-info > span{
     color: #9fa6b9;
     font-family: 'Itim', cursive;
+    font-size: 17px;
+}
+.lag-style{
+    color: #9fa6b9;
+    font-family: 'Itim', cursive;
+    font-size: 17px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
