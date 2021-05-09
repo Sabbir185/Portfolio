@@ -13,14 +13,14 @@ const HeaderNav = () => {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     <Fade top>
-                        <Nav.Link href=""><Link className="mr-4 navColor" to='/home'>Home</Link></Nav.Link>
-                        <Nav.Link href=""><Link className="mr-4 navColor" to='/projects'>Projects</Link></Nav.Link>
-                        <Nav.Link href=""><Link className="mr-4 navColor" to='/blogs'>Blogs</Link></Nav.Link>
-                        <Nav.Link href=""><Link className="mr-4 navColor" to='/about'>About Me</Link></Nav.Link>
+                        <Nav.Link href=""><Link className="mr-4 navColor nav-hover" to='/home'>Home</Link></Nav.Link>
+                        <Nav.Link href=""><Link className="mr-4 navColor nav-hover" to='/projects'>Projects</Link></Nav.Link>
+                        <Nav.Link href=""><Link className="mr-4 navColor nav-hover" to='/blogs'>Blogs</Link></Nav.Link>
+                        <Nav.Link href=""><Link className="mr-4 navColor nav-hover" to='/about'>About Me</Link></Nav.Link>
                     </Fade>
                 </Nav>
                 <Fade top>
-                    <Button variant="outline-success">Resume</Button>
+                    <a href={`https://${'drive.google.com/file/d/1BnpBpqkPwR8C_QCkEu1r2BU8UwH9_JQK/view'}`} target='_blank' rel="noreferrer" ><Button variant="outline-success">Resume</Button></a>
                 </Fade>
             </Navbar.Collapse>
         </Navbar>

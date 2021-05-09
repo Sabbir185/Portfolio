@@ -9,7 +9,7 @@ const CardShape = () => {
     return (
         <div className="card-deck mt-5 mb-5 pt-5 pb-3 responsive">
             <div className="card card-container">
-                <div className="m-2 card-image">
+                <div className="m-2 card-image tans-effect">
                     <img src={sundarban} className="card-img-top img-fluid" alt="..." />
                 </div>
                 <div className="card-body card-description">
@@ -21,7 +21,7 @@ const CardShape = () => {
                 </div>
             </div>
             <div className="card card-container">
-                <div className="m-2 card-image">
+                <div className="m-2 card-image tans-effect">
                     <img src={slider} className="card-img-top img-fluid" alt="..." />
                 </div>
                 <div className="card-body card-description">
@@ -33,7 +33,7 @@ const CardShape = () => {
                 </div>
             </div>
             <div className="card card-container">
-                <div className="m-2 card-image">
+                <div className="m-2 card-image tans-effect">
                     <img src={food} className="card-img-top img-fluid" alt="..." />
                 </div>
                 <div className="card-body card-description">

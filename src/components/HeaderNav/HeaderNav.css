@@ -18,3 +18,12 @@
     width: 60px;
 }
 
+.nav-hover{
+    transition: .3s;
+}
+.nav-hover:hover{
+    border: 1px dotted lightgreen;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+}

@@ -45,3 +45,12 @@
         font-size: 20px;
     }
   }
+
+.btn-trans{
+    transition: padding ease-in-out .3s;
+}
+.btn-trans:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+}

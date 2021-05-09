@@ -6,7 +6,7 @@ const BlogContainer = (props) => {
     const { blog, description } = props.blog;
 
     return (
-        <div>
+        <div className="move-trans">
             <Slide bottom>
                 <div className="card p-3 text-clr bg-dark">
                     <h6>Title : {blog}</h6>

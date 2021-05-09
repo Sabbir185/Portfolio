@@ -94,4 +94,15 @@
         margin: 0;
         grid-gap: 25px;
     }
+    .card-image img{
+        height: 180px;
+    }
+}
+
+
+.tans-effect img{
+    transition: .3s;
+}
+.tans-effect img:hover{
+    transform: scale(1.1);
 }

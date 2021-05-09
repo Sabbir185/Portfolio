@@ -5,6 +5,7 @@ import './AboutMe.css';
 import Qualifications from '../Qualifications/Qualifications';
 import Pulse from 'react-reveal/Pulse';
 import Slide from 'react-reveal/Slide';
+import { motion } from 'framer-motion';
 
 const AboutMe = () => {
     return (
@@ -13,8 +14,10 @@ const AboutMe = () => {
             <div className="pt-5">
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xlg-4 aboutMe-img pb-5">
-                        <Pulse>
-                            <img src={sabbir} alt="" />
+                        <Pulse >
+                            <div className="tans-effect">
+                                <img src={sabbir} alt="" />
+                            </div>
                         </Pulse>
                     </div>
                     <div className="col aboutMe-textColor aboutInfo-container">

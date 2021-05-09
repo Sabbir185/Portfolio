@@ -33,7 +33,7 @@ const MySelf = () => {
                                         <li><span>Firebase </span></li>
                                         <li><span>Heroku </span></li>
                                         <li><span>Netlify </span></li>
-                                        <li><span>SCSS</span></li>
+                                        <li><span>SASS</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const MySelf = () => {
                     </div>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 d-flex  justify-content-center">
-                    <div>
+                    <div className="tans-effect">
                         <img src={myself} alt="" className="myself-img img-fluid" />
                     </div>
                 </div>

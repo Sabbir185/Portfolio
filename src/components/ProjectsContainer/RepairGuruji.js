@@ -2,6 +2,7 @@ import React from 'react';
 import repair from '../../images/projects/1.png';
 import './style.css';
 import Pulse from 'react-reveal/Pulse';
+import { motion } from 'framer-motion';
 
 const RepairGuruji = () => {
 
@@ -9,7 +10,7 @@ const RepairGuruji = () => {
         <div className="row repair-res">
             <div className="col-xs-12 col-sm-5 col-md-5 col-lg-5 col-xlg-5 img-style d-flex align-items-center justify-content-center">
                 <Pulse>
-                    <div>
+                    <div className="tans-effect">
                         <img src={repair} alt="" className="img-fluid" />
                         <a href={`https://${'repair-guruji.web.app'}`} target='_blank' rel="noreferrer" className="text-decoration-none"> <button className="btn btn-outline-success mt-3 mx-auto d-block">view project</button> </a>
                     </div>

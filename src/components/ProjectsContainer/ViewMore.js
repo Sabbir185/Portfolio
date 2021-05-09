@@ -22,7 +22,7 @@ const ViewMore = () => {
                 <div id="view-more" className="pt-2">
                     <div className="card-deck mt-5 mb-5 pb-3 responsive">
                         <div className="card card-container">
-                            <div className="m-2 card-image">
+                            <div className="m-2 card-image tans-effect">
                                 <img src={a} className="card-img-top img-fluid" alt="..." />
                             </div>
                             <div className="card-body card-description">
@@ -34,7 +34,7 @@ const ViewMore = () => {
                             </div>
                         </div>
                         <div className="card card-container">
-                            <div className="m-2 card-image">
+                            <div className="m-2 card-image tans-effect">
                                 <img src={c} className="card-img-top img-fluid" alt="..." />
                             </div>
                             <div className="card-body card-description">
@@ -46,7 +46,7 @@ const ViewMore = () => {
                             </div>
                         </div>
                         <div className="card card-container">
-                            <div className="m-2 card-image">
+                            <div className="m-2 card-image tans-effect">
                                 <img src={b} className="card-img-top img-fluid" alt="..." />
                             </div>
                             <div className="card-body card-description">
