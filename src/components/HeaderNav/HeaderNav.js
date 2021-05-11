@@ -20,7 +20,7 @@ const HeaderNav = () => {
                     </Fade>
                 </Nav>
                 <Fade top>
-                    <a href={`https://${'drive.google.com/file/d/1BnpBpqkPwR8C_QCkEu1r2BU8UwH9_JQK/view'}`} target='_blank' rel="noreferrer" ><Button variant="outline-success">Resume</Button></a>
+                    <a href={`https://${'drive.google.com/file/d/1TM2r3Ch8WG01aTB2Ej0r3COtXPCM5baN/view'}`} target='_blank' rel="noreferrer" ><Button variant="outline-success">Resume</Button></a>
                 </Fade>
             </Navbar.Collapse>
         </Navbar>

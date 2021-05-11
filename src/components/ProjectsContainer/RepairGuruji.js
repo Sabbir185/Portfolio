@@ -2,7 +2,6 @@ import React from 'react';
 import repair from '../../images/projects/1.png';
 import './style.css';
 import Pulse from 'react-reveal/Pulse';
-import { motion } from 'framer-motion';
 
 const RepairGuruji = () => {
 

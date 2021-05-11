@@ -5,7 +5,7 @@ import './AboutMe.css';
 import Qualifications from '../Qualifications/Qualifications';
 import Pulse from 'react-reveal/Pulse';
 import Slide from 'react-reveal/Slide';
-import { motion } from 'framer-motion';
+
 
 const AboutMe = () => {
     return (
