@@ -46,7 +46,7 @@ const HeaderMain = () => {
                         animate={{x: 0}}
                         transition={{ duration: .5}}
                     >
-                        <a href={`https://${'drive.google.com/file/d/1TM2r3Ch8WG01aTB2Ej0r3COtXPCM5baN/view'}`} target='_blank' rel="noreferrer"><Button className="mt-3 btn-trans" variant="outline-success">Download Resume</Button></a>
+                        <a href={`https://${'drive.google.com/file/d/1Nr1P_eFIPLsSZYyML3FWOagKRlJZjIh-/view'}`} target='_blank' rel="noreferrer"><Button className="mt-3 btn-trans" variant="outline-success">Download Resume</Button></a>
                     </motion.div>
                 </div>
                 <div className="col"></div>
