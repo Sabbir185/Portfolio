@@ -3,7 +3,7 @@ import './BlogContainer.css';
 import Slide from 'react-reveal/Slide';
 
 const BlogContainer = (props) => {
-    const { blog, description } = props.blog;
+    const { blog, description, link } = props.blog;
 
     return (
         <div className="move-trans">
@@ -12,7 +12,7 @@ const BlogContainer = (props) => {
                     <h6>Title : {blog}</h6>
                     <hr />
                     <p className="text-justify">{description}</p>
-                    <button className="btn btn-outline-success d-block ml-auto">read more</button>
+                    <a href={`https://${link}`} target='_blank' rel="noreferrer" className="text-decoration-none"><button className="btn btn-outline-success d-block ml-auto nav-link">read more</button></a>
                 </div>
             </Slide>
         </div>

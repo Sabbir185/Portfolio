@@ -65,7 +65,7 @@ const AboutMe = () => {
                                 <span> React-Redux, </span>
                                 <span> Tailwindcss, </span>
                                 <span> Django, </span>
-                                <span> D3js</span>
+                                <span> SASS, </span>
 
                                 <h5 className="aboutMe-headerColor mt-3">Programming Languages</h5>
                                 <span>C++, </span>
@@ -73,11 +73,11 @@ const AboutMe = () => {
                                 <span> Java, </span>
                                 <span> Python, </span>
                                 <span> C#, </span>
-                                <span> PHP</span>
 
                                 <h5 className="aboutMe-headerColor mt-3">Tools</h5>
                                 <span>Git, </span>
                                 <span> VSCode, </span>
+                                <span> Chrome Dev Tools, </span>
                                 <span> Firebase, </span>
                                 <span> Netlify, </span>
                                 <span> Heroku,</span>
