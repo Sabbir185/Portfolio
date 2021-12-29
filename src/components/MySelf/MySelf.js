@@ -29,11 +29,11 @@ const MySelf = () => {
                                 </div>
                                 <div className="col">
                                     <ul>
+									    <li><span>Redux</span></li>
                                         <li><span>Git </span></li>
+                                        <li><span>Docker </span></li>
                                         <li><span>Firebase </span></li>
                                         <li><span>Heroku </span></li>
-                                        <li><span>Netlify </span></li>
-                                        <li><span>SASS</span></li>
                                     </ul>
                                 </div>
                             </div>

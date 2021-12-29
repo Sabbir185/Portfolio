@@ -26,7 +26,7 @@ const AboutMe = () => {
                                 <h4> <em><span className="aboutMe-mainTitle">Bismillahir Rahmanir Rahim</span></em> </h4>
                                 <h4 className="aboutMe-headerColor mt-5">Hi, you're welcome</h4>
                                 <article className="w-75 text-justify mt-3">
-                                    <h5>My name is Sabbir Ahmmed. I'm a MERN Stack Web Developer. I love to design and building web applications. Blogging, problem-solving and learning new technologies is my another passion. I always try to keep update myself on technologies.</h5>
+                                    <p>My name is Sabbir Ahmmed. I'm a MERN Stack Web Developer. I love to design and building web applications. Blogging, problem-solving and learning new technologies is my another passion. I always try to keep update myself on technologies.</p>
                                 </article>
                             </div>
                         </Pulse>
@@ -42,40 +42,39 @@ const AboutMe = () => {
                             <Slide bottom>
                                 <h4><span className="aboutMe-mainTitle aboutMe-headerColor">Skills</span></h4>
 
-                                <h5 className="aboutMe-headerColor mt-4">Expertise</h5>
+                                <h5 className="aboutMe-headerColor mt-4">Frontend</h5>
                                 <span>HTML, </span>
                                 <span> CSS, </span>
                                 <span> Bootstrap, </span>
                                 <span> Material-UI, </span>
                                 <span> JavaScript (ES6), </span>
                                 <span> ReactJs, </span>
-                                <span> React-Router, </span>
-                                <span className="d-inline-block"> Context-API </span>
+                                <span> Redux, </span>
 
-                                <h5 className="aboutMe-headerColor mt-3">Comfortable</h5>
+                                <h5 className="aboutMe-headerColor mt-3">Backend</h5>
                                 <span>NodeJs, </span>
                                 <span> ExpressJs, </span>
                                 <span> MongoDB, </span>
                                 <span> REST-API, </span>
-                                <span> MySQL (ES6), </span>
+                                <span> MySQL, </span>
+                                <span> Jest, </span>
                                 <span> Firebase-Auth & JWT</span>
 
                                 <h5 className="aboutMe-headerColor mt-3">Familiar</h5>
                                 <span>TypeScript, </span>
-                                <span> React-Redux, </span>
                                 <span> Tailwindcss, </span>
                                 <span> Django, </span>
-                                <span> SASS, </span>
+                                <span> SASS </span>
 
                                 <h5 className="aboutMe-headerColor mt-3">Programming Languages</h5>
                                 <span>C++, </span>
                                 <span> JavaScript, </span>
                                 <span> Java, </span>
                                 <span> Python, </span>
-                                <span> C#, </span>
 
                                 <h5 className="aboutMe-headerColor mt-3">Tools</h5>
                                 <span>Git, </span>
+                                <span> Docker, </span>
                                 <span> VSCode, </span>
                                 <span> Chrome Dev Tools, </span>
                                 <span> Firebase, </span>

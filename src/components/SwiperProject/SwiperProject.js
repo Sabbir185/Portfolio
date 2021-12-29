@@ -13,6 +13,7 @@ import eplanet from '../../images/projects/2.png';
 import sundarban from '../../images/projects/3.png';
 import imgSlider from '../../images/projects/9.png';
 import alpha from '../../images/projects/4.png';
+import applyNow from '../../images/100.jpg';
 
 
 // import Swiper core and required modules
@@ -36,6 +37,10 @@ const SwiperProject = () => {
                 "modifier": 1,
                 "slideShadows": true
             }} pagination={true} className="mySwiper">
+                <SwiperSlide>
+                    <a href={`https://${'sabbir185-applynow.web.app'}`} target='_blank' rel="noreferrer" className="text-decoration-none"><img src={applyNow} alt="" className="img-fluid" /></a>
+                </SwiperSlide>
+
                 <SwiperSlide>
                     <a href={`https://${'repair-guruji.web.app'}`} target='_blank' rel="noreferrer" className="text-decoration-none"><img src={repair} alt="" /></a>
                 </SwiperSlide>
