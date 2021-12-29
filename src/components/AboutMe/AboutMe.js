@@ -26,7 +26,7 @@ const AboutMe = () => {
                                 <h4> <em><span className="aboutMe-mainTitle">Bismillahir Rahmanir Rahim</span></em> </h4>
                                 <h4 className="aboutMe-headerColor mt-5">Hi, you're welcome</h4>
                                 <article className="w-75 text-justify mt-3">
-                                    <p>My name is Sabbir Ahmmed. I'm a MERN Stack Web Developer. I love to design and building web applications. Blogging, problem-solving and learning new technologies is my another passion. I always try to keep update myself on technologies.</p>
+                                    <p>My name is Sabbir Ahmmed. I'm a MERN Stack Web Developer. I love to design and develop web applications. Blogging, problem-solving, and learning new technologies is my another passion. I always try to keep updating myself on technologies.</p>
                                 </article>
                             </div>
                         </Pulse>
